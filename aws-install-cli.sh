@@ -1,12 +1,12 @@
 #!/bin/bash
 SCRIPT_NAME=$(basename "$0")
-SCRIPT_VERSION="1.0.1"
+SCRIPT_VERSION="1.0.2"
 REPO_URL="https://github.com/jonarants/aws-install-cli"
 AUTHOR="JonaRants"
 
 echo "# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por ${AUTHOR}"
-
-echo -e "\e[1;92mSe inicia el proces de instalación de AWS CLI para WSL\e[0m"
+echo "# Github: ${REPO_URL}"
+echo -e "\e[1;92mSe inicia el proceso de instalación de AWS CLI para WSL\e[0m"
 echo "Se actualizaran los repositorios locales"
 sudo apt update
 sudo apt upgrade -y
@@ -24,7 +24,10 @@ echo "Instalando..."
 sudo ./aws/install
 echo "Verificando la instalación..."
 aws --version
-echo -e "\e[1;91mRemoviendo archivos\e[0m"
+echo -e "\e[1;92mVerificando la instalación...\e[0m]"
+echo -e "\e[1;91mRemoviendo archivos innecesarios\e[0m"
 rm awscliv2.zip
 rm -rf aws
 echo -e "\e[1;92mInstalación completada de manera exitosa\e[0m"
+echo "# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por ${AUTHOR}"
+echo "# Github: ${REPO_URL}"

@@ -9,3 +9,11 @@ Para ejecutar simplemente lanzamos el script de la siguiente manera:
 ```
 
 El script automáticamente realizara la instalación de las dependencias necesarias para ejecutar sus tareas.
+
+## Problemas
+En caso de tener problemas de ejecución ejecutar el siguiente comando en la base del directorio donde se clone:
+```bash
+chmod +x aws-install-cli.sh
+```
+
+
