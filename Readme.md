@@ -1,4 +1,4 @@
-# Script para instalación de AWS CLI en WSL2
+# Script para instalación de AWS CLI y Docker Engine en WSL2
 
 *Este es un script sencillo que busca ahorrar algo de tiempo en el proceso de instalación de AWS CLI en WSL2 usando Ubuntu-24.04*
 
