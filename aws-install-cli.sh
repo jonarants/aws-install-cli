@@ -24,7 +24,7 @@ echo "Instalando..."
 sudo ./aws/install
 echo "Verificando la instalación..."
 aws --version
-echo -e "\e[1;92mVerificando la instalación...\e[0m]"
+echo -e "\e[1;92mInstalación verificada...\e[0m"
 echo -e "\e[1;91mRemoviendo archivos innecesarios\e[0m"
 rm awscliv2.zip
 rm -rf aws
