@@ -186,7 +186,7 @@ cat <<'EOF'                                        :-+*****+=+=                 
                                                                %%%%%%%#%#*****+++==##++**+**        
                                                                %##%%%*#%######*****#%+=*#**         
                                                                  ####**#######*****#%++##*          
-
+EOF
 echo -e "\e[1;92mSe han instalado AWS CLI y Docker Engine en WSL de manera exitosa\e[0m"
 echo -e "# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por \e[1;91m${AUTHOR}\e[0m"
 echo "# Github: ${REPO_URL}"
