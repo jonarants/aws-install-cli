@@ -5,7 +5,7 @@
 
 Para ejecutar simplemente lanzamos el script de la siguiente manera:
 ```bash
-./aws.sh
+./aws-install-cli.sh
 ```
 
 El script automáticamente realizara la instalación de las dependencias necesarias para ejecutar sus tareas.
