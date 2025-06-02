@@ -18,7 +18,7 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
     exit 1
 }
 echo -e "\e[1;92Descarga exitosa\e[0m"
-echo -e "\e[1;92mDescomprimiendoe\e[0m"
+echo -e "\e[1;92mDescomprimiendo\e[0m"
 unzip awscliv2.zip
 echo "Instalando..."
 sudo ./aws/install
