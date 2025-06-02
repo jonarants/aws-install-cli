@@ -29,11 +29,12 @@ echo -e "\e[1;91mRemoviendo archivos innecesarios\e[0m"
 rm awscliv2.zip
 rm -rf aws
 echo -e "\e[1;92mInstalación completada de manera exitosa\e[0m"
-echo "# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por ${AUTHOR}"
+echo -e"# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por \e[1;91m${AUTHOR}\e[0m"
 echo "# Github: ${REPO_URL}"
-
-echo -e "Comenzando la instalación de \e[1:93Docker Engine\e[0m en \e[1:92mWSL \e[0m"
+echo "==============================================================================="
+echo -e "Comenzando la instalación de \e[1;93mDocker Engine\e[0m en \e[1;92mWSL \e[0m"
 echo -e "Configurando el repo de \e[1;93mDocker\e[0m"
+echo "==============================================================================="
 
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -52,5 +53,8 @@ sudo apt-get update
 echo -e "Actualizando \e[1,93mDocker\e[0m"
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-echo "Despliegue de \e[95mhello-world\e[0m"
+echo -e "Despliegue de \e[95mhello-world\e[0m"
 sudo docker run hello-world
+echo -e "\e[1;92mSe han instalado AWS CLI y Docker Engine en WSL de manera exitosa\e[0m"
+echo -e"# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por \e[1;91m${AUTHOR}\e[0m"
+echo "# Github: ${REPO_URL}"
