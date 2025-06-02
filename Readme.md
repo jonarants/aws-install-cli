@@ -5,7 +5,7 @@
 
 Para ejecutar simplemente lanzamos el script de la siguiente manera:
 ```bash
-./aws-install-cli.sh
+./install-aws-cli-docker-engine
 ```
 
 El script automáticamente realizara la instalación de las dependencias necesarias para ejecutar sus tareas.
@@ -13,7 +13,7 @@ El script automáticamente realizara la instalación de las dependencias necesar
 ## Problemas
 En caso de tener problemas de ejecución ejecutar el siguiente comando en la base del directorio donde se clone:
 ```bash
-chmod +x aws-install-cli.sh
+chmod +x install-aws-cli-docker-engine
 ```
 
 
