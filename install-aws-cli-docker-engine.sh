@@ -1,7 +1,7 @@
 #!/bin/bash
 SCRIPT_NAME=$(basename "$0")
 SCRIPT_VERSION="1.0.2"
-REPO_URL="https://github.com/jonarants/aws-install-cli"
+REPO_URL="https://github.com/jonarants/install-aws-cli-docker-engine"
 AUTHOR="JonaRants"
 echo "======================================================================="
 echo "# $SCRIPT_NAME v${SCRIPT_VERSION} - Escrito por ${AUTHOR}"
